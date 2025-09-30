@@ -344,3 +344,17 @@ h4 {
   color: #333;
 }
 
+body {
+  cursor: url("https://downloads.totallyfreecursors.com/thumbnails/fireorange.gif"), auto;
+}
+
+a, button {
+  cursor: url("https://downloads.totallyfreecursors.com/thumbnails/fireorange.gif"), pointer;
+}
+
+/* When hovering text → normal text cursor */
+p, h1, h2, h3, h4, h5, h6, span, input, textarea {
+  cursor: text;
+}
+
+
