@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Semantic Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Video -->
+  <video autoplay loop muted playsinline id="bg-video">
+    <source src="/vid/wall.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Header -->
+  <header class="text-white p-3">
+    <nav>
+      <ul class="nav justify-content-center">
+        <li><a class="nav-link" href="index.html"><img src="icon/home.png" alt="Home" width="24" height="24"> Home</a></li>
+        <li><a class="nav-link" href="about.html"><img src="icon/about.png" alt="About" width="24" height="24"> About</a></li>
+        <li><a class="nav-link active" href="gallery.html"><img src="icon/gallery.png" alt="Gallery" width="24" height="24"> Gallery</a></li>
+        <li><a class="nav-link" href="services.html"><img src="icon/services.png" alt="Services" width="24" height="24"> Services</a></li>
+        <li><a class="nav-link" href="contact.html"><img src="icon/contact.png" alt="Contact" width="24" height="24"> Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main -->
+  <main class="container my-5">
+    <h1 class="text-center mb-4">Gallery</h1>
+    <p class="text-center mb-5">Here are some sample images and videos displayed responsively</p>
+
+    <section class="row g-4">
+      <figure class="col-md-4 text-center gallery-item">
+        <video src="/vid/catgif.mp4" class="img-fluid rounded shadow" autoplay loop muted playsinline></video>
+        <figcaption>CAT</figcaption>
+      </figure>
+
+      <figure class="col-md-4 text-center gallery-item">
+        <video src="/vid/Dragon_Eye.mp4" class="img-fluid rounded shadow" autoplay loop muted playsinline></video>
+        <figcaption>DRAGON</figcaption>
+      </figure>
+
+      <figure class="col-md-4 text-center gallery-item">
+        <img src="/vid/gg.gif" class="img-fluid rounded shadow" alt="GIF Sample">
+        <figcaption>GIF</figcaption>
+      </figure>
+    </section>
+
+    <section class="row g-4 mt-3">
+      <figure class="col-md-4 text-center gallery-item">
+        <video src="/vid/cat.mp4" class="img-fluid rounded shadow" autoplay loop muted playsinline></video>
+        <figcaption>CAT</figcaption>
+      </figure>
+
+      <figure class="col-md-4 text-center gallery-item">
+        <video src="/vid/sirtaposnapo.mp4" class="img-fluid rounded shadow" autoplay loop muted playsinline></video>
+        <figcaption>COCO MARTIN</figcaption>
+      </figure>
+
+      <figure class="col-md-4 text-center gallery-item">
+        <video src="/vid/goku.mp4" class="img-fluid rounded shadow" autoplay loop muted playsinline></video>
+        <figcaption>GOKU</figcaption>
+      </figure>
+    </section>
+  </main>
+
+ <main>
+    <!-- all your page content goes here -->
+  </main>
+
+  <footer>
+    <small>&copy; 2025 Semantic Website Example</small>
+  </footer>
+</body>
+</html>
