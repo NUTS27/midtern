@@ -118,6 +118,18 @@
     </script>
   </main>
 
+  <!-- 🔹 Click Sound Everywhere -->
+<script>
+  // Load your sound file
+  const clickSound = new Audio("/vid/click.mp3");
+
+  // Play sound on ANY click inside the page
+  document.addEventListener("click", () => {
+    clickSound.currentTime = 0; // reset if clicked quickly
+    clickSound.play();
+  });
+</script>
+
   <!-- Footer -->
   <footer class="text-center p-3">
     <small>&copy; 2025 Semantic Website Example</small>
@@ -127,6 +139,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
 
 
 
