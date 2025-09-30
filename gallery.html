@@ -67,6 +67,18 @@
     </section>
   </main>
 
+  <!-- 🔹 Click Sound Everywhere -->
+<script>
+  // Load your sound file
+  const clickSound = new Audio("/vid/click.mp3");
+
+  // Play sound on ANY click inside the page
+  document.addEventListener("click", () => {
+    clickSound.currentTime = 0; // reset if clicked quickly
+    clickSound.play();
+  });
+</script>
+
  <main>
     <!-- all your page content goes here -->
   </main>
@@ -76,4 +88,5 @@
   </footer>
 </body>
 </html>
+
 
